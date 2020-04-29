@@ -128,5 +128,26 @@ namespace CapaVistaPa2
         {
 
         }
+
+        private void MantenimientoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            MantnimientoCursos frm = new MantnimientoCursos(LblUsuario.Text);
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void MantenimeintosSeccionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MantenimientoSecciones frm = new MantenimientoSecciones(LblUsuario.Text);
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void MantenimientoDeMaestrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           MantenimientoMaestros frm = new MantenimientoMaestros(LblUsuario.Text);
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

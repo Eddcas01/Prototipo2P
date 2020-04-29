@@ -10,23 +10,23 @@ using System.Windows.Forms;
 
 namespace CapaVistaPa2
 {
-    public partial class Mantenimiento1 : Form
+    public partial class MantenimientoSecciones : Form
     {
         string usuario = "";
-        public Mantenimiento1(string user)
+        public MantenimientoSecciones(string user)
         {
             InitializeComponent();
             usuario = user;
-            string[] alias = { "CARNET","NOMBRE","DIRECCION","TELEFONO","EMAIL", "ESTADO"  };
+            string[] alias = { "COD SECCION","NOMBRE","ESTADO" };
             navegador1.asignarAlias(alias);
             navegador1.asignarSalida(this);
             Color Hotel = Color.FromArgb(253, 254, 254);
             navegador1.asignarColorFondo(Hotel);
             navegador1.asignarColorFuente(Color.Black);
             navegador1.asignarAyuda("1");
-            navegador1.asignarTabla("alumnos");
+           
+            navegador1.asignarTabla("secciones");
             navegador1.asignarNombreForm("");
-
         }
 
         private void Navegador1_Load(object sender, EventArgs e)
