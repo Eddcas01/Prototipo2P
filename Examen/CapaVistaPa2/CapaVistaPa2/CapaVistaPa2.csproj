@@ -63,6 +63,24 @@
     <Compile Include="Mantenimiento1.Designer.cs">
       <DependentUpon>Mantenimiento1.cs</DependentUpon>
     </Compile>
+    <Compile Include="MantenimientoMaestros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoMaestros.Designer.cs">
+      <DependentUpon>MantenimientoMaestros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoSecciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoSecciones.Designer.cs">
+      <DependentUpon>MantenimientoSecciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantnimientoCursos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantnimientoCursos.Designer.cs">
+      <DependentUpon>MantnimientoCursos.cs</DependentUpon>
+    </Compile>
     <Compile Include="MDI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +103,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Mantenimiento1.resx">
       <DependentUpon>Mantenimiento1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoMaestros.resx">
+      <DependentUpon>MantenimientoMaestros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoSecciones.resx">
+      <DependentUpon>MantenimientoSecciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantnimientoCursos.resx">
+      <DependentUpon>MantnimientoCursos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDI.resx">
       <DependentUpon>MDI.cs</DependentUpon>
@@ -138,6 +165,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\transportador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personas.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

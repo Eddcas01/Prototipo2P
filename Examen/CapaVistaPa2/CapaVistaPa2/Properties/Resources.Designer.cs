@@ -193,6 +193,16 @@ namespace CapaVistaPa2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap personas {
+            get {
+                object obj = ResourceManager.GetObject("personas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap transportador {
             get {
                 object obj = ResourceManager.GetObject("transportador", resourceCulture);

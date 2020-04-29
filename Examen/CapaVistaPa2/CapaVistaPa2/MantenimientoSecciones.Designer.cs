@@ -1,6 +1,6 @@
 ﻿namespace CapaVistaPa2
 {
-    partial class Mantenimiento1
+    partial class MantenimientoSecciones
     {
         /// <summary>
         /// Required designer variable.
@@ -40,7 +40,7 @@
             // 
             this.navegador1.BackColor = System.Drawing.Color.White;
             this.navegador1.Font = new System.Drawing.Font("Century Gothic", 6.8F, System.Drawing.FontStyle.Bold);
-            this.navegador1.Location = new System.Drawing.Point(2, 48);
+            this.navegador1.Location = new System.Drawing.Point(0, 49);
             this.navegador1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(991, 775);
@@ -61,7 +61,7 @@
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(698, 93);
-            this.tableLayoutPanel1.TabIndex = 14;
+            this.tableLayoutPanel1.TabIndex = 15;
             // 
             // pictureBox1
             // 
@@ -85,21 +85,20 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(571, 93);
             this.label5.TabIndex = 8;
-            this.label5.Text = "ALUMNOS";
+            this.label5.Text = "SECCIONES";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Mantenimiento1
+            // MantenimientoSecciones
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(698, 704);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.navegador1);
             this.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Bold);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "Mantenimiento1";
+            this.Name = "MantenimientoSecciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Mantenimiento1";
+            this.Text = "MantenimientoSecciones";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

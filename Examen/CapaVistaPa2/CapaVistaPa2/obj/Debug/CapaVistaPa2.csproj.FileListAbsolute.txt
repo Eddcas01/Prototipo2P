@@ -110,3 +110,6 @@ C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\obj
 C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\obj\Debug\CapaVistaPa2.csproj.CopyComplete
 C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\obj\Debug\CapaVistaPa2.dll
 C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\obj\Debug\CapaVistaPa2.pdb
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\obj\Debug\CapaVistaPa2.MantenimientoMaestros.resources
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\obj\Debug\CapaVistaPa2.MantnimientoCursos.resources
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\obj\Debug\CapaVistaPa2.MantenimientoSecciones.resources
