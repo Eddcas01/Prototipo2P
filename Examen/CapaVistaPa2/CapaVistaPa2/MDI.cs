@@ -149,5 +149,47 @@ namespace CapaVistaPa2
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void AsignarCursoAAlumnoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Proceso1 frm = new Proceso1();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void MantenimientoFacultadesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MantenimientoFacultades frm = new MantenimientoFacultades(LblUsuario.Text);
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void MantenimientoCarrerasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MantenimientoCarrera frm = new MantenimientoCarrera(LblUsuario.Text);
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void MantenimientoAulasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MantenimientoAula frm = new MantenimientoAula(LblUsuario.Text);
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void MantenimientoJornadasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        MantenimientoJornada frm = new MantenimientoJornada(LblUsuario.Text);
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void MantenimientoSedesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           MantenimientoSede  frm = new MantenimientoSede (LblUsuario.Text);
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

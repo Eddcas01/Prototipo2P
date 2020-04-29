@@ -4,3 +4,9 @@ C:\Users\edgar\Documents\GitHub\Examen\CapaVistaPa2\CapaControladorPa2\obj\Debug
 C:\Users\edgar\Documents\GitHub\Examen\CapaVistaPa2\CapaControladorPa2\obj\Debug\CapaControladorPa2.csproj.CoreCompileInputs.cache
 C:\Users\edgar\Documents\GitHub\Examen\CapaVistaPa2\CapaControladorPa2\obj\Debug\CapaControladorPa2.dll
 C:\Users\edgar\Documents\GitHub\Examen\CapaVistaPa2\CapaControladorPa2\obj\Debug\CapaControladorPa2.pdb
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaControladorPa2\bin\Debug\CapaControladorPa2.dll
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaControladorPa2\bin\Debug\CapaControladorPa2.pdb
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaControladorPa2\obj\Debug\CapaControladorPa2.csprojAssemblyReference.cache
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaControladorPa2\obj\Debug\CapaControladorPa2.csproj.CoreCompileInputs.cache
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaControladorPa2\obj\Debug\CapaControladorPa2.dll
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaControladorPa2\obj\Debug\CapaControladorPa2.pdb

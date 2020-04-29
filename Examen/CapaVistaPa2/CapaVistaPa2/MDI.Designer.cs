@@ -41,7 +41,10 @@
             this.mantenimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mantenimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mantenimientoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimeintosSeccionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoDeMaestrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.asignarCursoAAlumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -54,9 +57,6 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.LblUsuario = new System.Windows.Forms.ToolStripStatusLabel();
-            this.mantenimeintosSeccionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mantenimientoDeMaestrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.asignarCursoAAlumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -64,6 +64,11 @@
             this.printPreviewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.indexToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoFacultadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoCarrerasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoAulasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoJornadasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoSedesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -144,7 +149,12 @@
             this.mantenimientoToolStripMenuItem,
             this.mantenimientoToolStripMenuItem1,
             this.mantenimeintosSeccionesToolStripMenuItem,
-            this.mantenimientoDeMaestrosToolStripMenuItem});
+            this.mantenimientoDeMaestrosToolStripMenuItem,
+            this.mantenimientoFacultadesToolStripMenuItem,
+            this.mantenimientoCarrerasToolStripMenuItem,
+            this.mantenimientoAulasToolStripMenuItem,
+            this.mantenimientoJornadasToolStripMenuItem,
+            this.mantenimientoSedesToolStripMenuItem});
             this.mantenimientosToolStripMenuItem.Name = "mantenimientosToolStripMenuItem";
             this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(90, 24);
             this.mantenimientosToolStripMenuItem.Text = "Catalogos";
@@ -152,16 +162,30 @@
             // mantenimientoToolStripMenuItem
             // 
             this.mantenimientoToolStripMenuItem.Name = "mantenimientoToolStripMenuItem";
-            this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(278, 26);
+            this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
             this.mantenimientoToolStripMenuItem.Text = "Mantenimiento Alumnos";
             this.mantenimientoToolStripMenuItem.Click += new System.EventHandler(this.MantenimientoToolStripMenuItem_Click);
             // 
             // mantenimientoToolStripMenuItem1
             // 
             this.mantenimientoToolStripMenuItem1.Name = "mantenimientoToolStripMenuItem1";
-            this.mantenimientoToolStripMenuItem1.Size = new System.Drawing.Size(278, 26);
+            this.mantenimientoToolStripMenuItem1.Size = new System.Drawing.Size(268, 26);
             this.mantenimientoToolStripMenuItem1.Text = "Mantenimiento Cursos";
             this.mantenimientoToolStripMenuItem1.Click += new System.EventHandler(this.MantenimientoToolStripMenuItem1_Click);
+            // 
+            // mantenimeintosSeccionesToolStripMenuItem
+            // 
+            this.mantenimeintosSeccionesToolStripMenuItem.Name = "mantenimeintosSeccionesToolStripMenuItem";
+            this.mantenimeintosSeccionesToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
+            this.mantenimeintosSeccionesToolStripMenuItem.Text = "Mantenimeintos Secciones";
+            this.mantenimeintosSeccionesToolStripMenuItem.Click += new System.EventHandler(this.MantenimeintosSeccionesToolStripMenuItem_Click);
+            // 
+            // mantenimientoDeMaestrosToolStripMenuItem
+            // 
+            this.mantenimientoDeMaestrosToolStripMenuItem.Name = "mantenimientoDeMaestrosToolStripMenuItem";
+            this.mantenimientoDeMaestrosToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
+            this.mantenimientoDeMaestrosToolStripMenuItem.Text = "Mantenimiento  Maestros";
+            this.mantenimientoDeMaestrosToolStripMenuItem.Click += new System.EventHandler(this.MantenimientoDeMaestrosToolStripMenuItem_Click);
             // 
             // procesosToolStripMenuItem
             // 
@@ -170,6 +194,13 @@
             this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
             this.procesosToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.procesosToolStripMenuItem.Text = "Procesos";
+            // 
+            // asignarCursoAAlumnoToolStripMenuItem
+            // 
+            this.asignarCursoAAlumnoToolStripMenuItem.Name = "asignarCursoAAlumnoToolStripMenuItem";
+            this.asignarCursoAAlumnoToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
+            this.asignarCursoAAlumnoToolStripMenuItem.Text = "Asignar Curso a Alumno ";
+            this.asignarCursoAAlumnoToolStripMenuItem.Click += new System.EventHandler(this.AsignarCursoAAlumnoToolStripMenuItem_Click);
             // 
             // reportesToolStripMenuItem
             // 
@@ -254,26 +285,6 @@
             this.LblUsuario.Size = new System.Drawing.Size(18, 20);
             this.LblUsuario.Text = "...";
             // 
-            // mantenimeintosSeccionesToolStripMenuItem
-            // 
-            this.mantenimeintosSeccionesToolStripMenuItem.Name = "mantenimeintosSeccionesToolStripMenuItem";
-            this.mantenimeintosSeccionesToolStripMenuItem.Size = new System.Drawing.Size(278, 26);
-            this.mantenimeintosSeccionesToolStripMenuItem.Text = "Mantenimeintos Secciones";
-            this.mantenimeintosSeccionesToolStripMenuItem.Click += new System.EventHandler(this.MantenimeintosSeccionesToolStripMenuItem_Click);
-            // 
-            // mantenimientoDeMaestrosToolStripMenuItem
-            // 
-            this.mantenimientoDeMaestrosToolStripMenuItem.Name = "mantenimientoDeMaestrosToolStripMenuItem";
-            this.mantenimientoDeMaestrosToolStripMenuItem.Size = new System.Drawing.Size(278, 26);
-            this.mantenimientoDeMaestrosToolStripMenuItem.Text = "Mantenimiento de Maestros";
-            this.mantenimientoDeMaestrosToolStripMenuItem.Click += new System.EventHandler(this.MantenimientoDeMaestrosToolStripMenuItem_Click);
-            // 
-            // asignarCursoAAlumnoToolStripMenuItem
-            // 
-            this.asignarCursoAAlumnoToolStripMenuItem.Name = "asignarCursoAAlumnoToolStripMenuItem";
-            this.asignarCursoAAlumnoToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.asignarCursoAAlumnoToolStripMenuItem.Text = "Asignar Curso a Alumno ";
-            // 
             // newToolStripMenuItem
             // 
             this.newToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("newToolStripMenuItem.Image")));
@@ -336,6 +347,41 @@
             this.searchToolStripMenuItem.Size = new System.Drawing.Size(218, 26);
             this.searchToolStripMenuItem.Text = "&Buscar";
             // 
+            // mantenimientoFacultadesToolStripMenuItem
+            // 
+            this.mantenimientoFacultadesToolStripMenuItem.Name = "mantenimientoFacultadesToolStripMenuItem";
+            this.mantenimientoFacultadesToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
+            this.mantenimientoFacultadesToolStripMenuItem.Text = "Mantenimiento Facultades";
+            this.mantenimientoFacultadesToolStripMenuItem.Click += new System.EventHandler(this.MantenimientoFacultadesToolStripMenuItem_Click);
+            // 
+            // mantenimientoCarrerasToolStripMenuItem
+            // 
+            this.mantenimientoCarrerasToolStripMenuItem.Name = "mantenimientoCarrerasToolStripMenuItem";
+            this.mantenimientoCarrerasToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
+            this.mantenimientoCarrerasToolStripMenuItem.Text = "Mantenimiento Carreras";
+            this.mantenimientoCarrerasToolStripMenuItem.Click += new System.EventHandler(this.MantenimientoCarrerasToolStripMenuItem_Click);
+            // 
+            // mantenimientoAulasToolStripMenuItem
+            // 
+            this.mantenimientoAulasToolStripMenuItem.Name = "mantenimientoAulasToolStripMenuItem";
+            this.mantenimientoAulasToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
+            this.mantenimientoAulasToolStripMenuItem.Text = "Mantenimiento Aulas";
+            this.mantenimientoAulasToolStripMenuItem.Click += new System.EventHandler(this.MantenimientoAulasToolStripMenuItem_Click);
+            // 
+            // mantenimientoJornadasToolStripMenuItem
+            // 
+            this.mantenimientoJornadasToolStripMenuItem.Name = "mantenimientoJornadasToolStripMenuItem";
+            this.mantenimientoJornadasToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
+            this.mantenimientoJornadasToolStripMenuItem.Text = "Mantenimiento Jornadas";
+            this.mantenimientoJornadasToolStripMenuItem.Click += new System.EventHandler(this.MantenimientoJornadasToolStripMenuItem_Click);
+            // 
+            // mantenimientoSedesToolStripMenuItem
+            // 
+            this.mantenimientoSedesToolStripMenuItem.Name = "mantenimientoSedesToolStripMenuItem";
+            this.mantenimientoSedesToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
+            this.mantenimientoSedesToolStripMenuItem.Text = "Mantenimiento Sedes";
+            this.mantenimientoSedesToolStripMenuItem.Click += new System.EventHandler(this.MantenimientoSedesToolStripMenuItem_Click);
+            // 
             // MDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -395,6 +441,11 @@
         private System.Windows.Forms.ToolStripMenuItem mantenimeintosSeccionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mantenimientoDeMaestrosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem asignarCursoAAlumnoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientoFacultadesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientoCarrerasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientoAulasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientoJornadasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientoSedesToolStripMenuItem;
     }
 }
 

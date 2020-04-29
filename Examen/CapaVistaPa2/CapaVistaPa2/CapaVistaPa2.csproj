@@ -43,6 +43,9 @@
     <Reference Include="CapaModeloPa2">
       <HintPath>..\CapaModeloPa2\bin\Debug\CapaModeloPa2.dll</HintPath>
     </Reference>
+    <Reference Include="CapaVista">
+      <HintPath>..\..\DLLS\ComboAuto\CapaVista\bin\Debug\CapaVista.dll</HintPath>
+    </Reference>
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="System" />
@@ -63,6 +66,30 @@
     <Compile Include="Mantenimiento1.Designer.cs">
       <DependentUpon>Mantenimiento1.cs</DependentUpon>
     </Compile>
+    <Compile Include="MantenimientoAula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoAula.Designer.cs">
+      <DependentUpon>MantenimientoAula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoCarrera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoCarrera.Designer.cs">
+      <DependentUpon>MantenimientoCarrera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoFacultades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoFacultades.Designer.cs">
+      <DependentUpon>MantenimientoFacultades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoJornada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoJornada.Designer.cs">
+      <DependentUpon>MantenimientoJornada.cs</DependentUpon>
+    </Compile>
     <Compile Include="MantenimientoMaestros.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +101,12 @@
     </Compile>
     <Compile Include="MantenimientoSecciones.Designer.cs">
       <DependentUpon>MantenimientoSecciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoSede.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoSede.Designer.cs">
+      <DependentUpon>MantenimientoSede.cs</DependentUpon>
     </Compile>
     <Compile Include="MantnimientoCursos.cs">
       <SubType>Form</SubType>
@@ -104,11 +137,26 @@
     <EmbeddedResource Include="Mantenimiento1.resx">
       <DependentUpon>Mantenimiento1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoAula.resx">
+      <DependentUpon>MantenimientoAula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoCarrera.resx">
+      <DependentUpon>MantenimientoCarrera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoFacultades.resx">
+      <DependentUpon>MantenimientoFacultades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoJornada.resx">
+      <DependentUpon>MantenimientoJornada.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MantenimientoMaestros.resx">
       <DependentUpon>MantenimientoMaestros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MantenimientoSecciones.resx">
       <DependentUpon>MantenimientoSecciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoSede.resx">
+      <DependentUpon>MantenimientoSede.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MantnimientoCursos.resx">
       <DependentUpon>MantnimientoCursos.cs</DependentUpon>
