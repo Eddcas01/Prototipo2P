@@ -97,8 +97,8 @@
             this.exitToolStripMenuItem});
             this.fileMenu.ImageTransparentColor = System.Drawing.SystemColors.ActiveBorder;
             this.fileMenu.Name = "fileMenu";
-            this.fileMenu.Size = new System.Drawing.Size(73, 24);
-            this.fileMenu.Text = "&Archivo";
+            this.fileMenu.Size = new System.Drawing.Size(56, 24);
+            this.fileMenu.Text = "Abrir";
             // 
             // newToolStripMenuItem
             // 
@@ -187,20 +187,20 @@
             this.mantenimientoToolStripMenuItem,
             this.mantenimientoToolStripMenuItem1});
             this.mantenimientosToolStripMenuItem.Name = "mantenimientosToolStripMenuItem";
-            this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(130, 24);
-            this.mantenimientosToolStripMenuItem.Text = "Mantenimientos";
+            this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(90, 24);
+            this.mantenimientosToolStripMenuItem.Text = "Catalogos";
             // 
             // mantenimientoToolStripMenuItem
             // 
             this.mantenimientoToolStripMenuItem.Name = "mantenimientoToolStripMenuItem";
-            this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(193, 26);
+            this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.mantenimientoToolStripMenuItem.Text = "Mantenimiento";
             this.mantenimientoToolStripMenuItem.Click += new System.EventHandler(this.MantenimientoToolStripMenuItem_Click);
             // 
             // mantenimientoToolStripMenuItem1
             // 
             this.mantenimientoToolStripMenuItem1.Name = "mantenimientoToolStripMenuItem1";
-            this.mantenimientoToolStripMenuItem1.Size = new System.Drawing.Size(193, 26);
+            this.mantenimientoToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.mantenimientoToolStripMenuItem1.Text = "Mantenimiento";
             // 
             // procesosToolStripMenuItem
@@ -212,8 +212,9 @@
             // reportesToolStripMenuItem
             // 
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
-            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
-            this.reportesToolStripMenuItem.Text = "Reportes";
+            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
+            this.reportesToolStripMenuItem.Text = "Informes";
+            this.reportesToolStripMenuItem.Click += new System.EventHandler(this.ReportesToolStripMenuItem_Click);
             // 
             // toolsMenu
             // 
