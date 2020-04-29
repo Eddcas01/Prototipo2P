@@ -1,0 +1,9 @@
+C:\Users\edgar\Documents\GitHub\Examen\CapaVistaPa2\CapaModeloPa2\bin\Debug\CapaModeloPa2.dll
+C:\Users\edgar\Documents\GitHub\Examen\CapaVistaPa2\CapaModeloPa2\bin\Debug\CapaModeloPa2.pdb
+C:\Users\edgar\Documents\GitHub\Examen\CapaVistaPa2\CapaModeloPa2\obj\Debug\CapaModeloPa2.csprojAssemblyReference.cache
+C:\Users\edgar\Documents\GitHub\Examen\CapaVistaPa2\CapaModeloPa2\obj\Debug\CapaModeloPa2.csproj.CoreCompileInputs.cache
+C:\Users\edgar\Documents\GitHub\Examen\CapaVistaPa2\CapaModeloPa2\obj\Debug\CapaModeloPa2.dll
+C:\Users\edgar\Documents\GitHub\Examen\CapaVistaPa2\CapaModeloPa2\obj\Debug\CapaModeloPa2.pdb
+C:\Users\edgar\Documents\GitHub\Examen\CapaVistaPa2\CapaModeloPa2\bin\Debug\CapaControladorPa2.dll
+C:\Users\edgar\Documents\GitHub\Examen\CapaVistaPa2\CapaModeloPa2\bin\Debug\CapaControladorPa2.pdb
+C:\Users\edgar\Documents\GitHub\Examen\CapaVistaPa2\CapaModeloPa2\obj\Debug\CapaModeloPa2.csproj.CopyComplete
