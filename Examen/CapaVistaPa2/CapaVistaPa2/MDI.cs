@@ -123,5 +123,10 @@ namespace CapaVistaPa2
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void ReportesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
