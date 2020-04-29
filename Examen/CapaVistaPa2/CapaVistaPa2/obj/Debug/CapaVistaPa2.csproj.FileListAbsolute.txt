@@ -113,3 +113,15 @@ C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\obj
 C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\obj\Debug\CapaVistaPa2.MantenimientoMaestros.resources
 C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\obj\Debug\CapaVistaPa2.MantnimientoCursos.resources
 C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\obj\Debug\CapaVistaPa2.MantenimientoSecciones.resources
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\bin\Debug\CapaVista.dll
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\bin\Debug\CapaModelo.dll
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\bin\Debug\CapaControlador.dll
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\bin\Debug\CapaVista.pdb
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\bin\Debug\CapaVista.dll.config
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\bin\Debug\CapaModelo.pdb
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\bin\Debug\CapaControlador.pdb
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\obj\Debug\CapaVistaPa2.MantenimientoAula.resources
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\obj\Debug\CapaVistaPa2.MantenimientoCarrera.resources
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\obj\Debug\CapaVistaPa2.MantenimientoFacultades.resources
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\obj\Debug\CapaVistaPa2.MantenimientoJornada.resources
+C:\Users\edgar\Documents\GitHub\Prototipo2P\Examen\CapaVistaPa2\CapaVistaPa2\obj\Debug\CapaVistaPa2.MantenimientoSede.resources
